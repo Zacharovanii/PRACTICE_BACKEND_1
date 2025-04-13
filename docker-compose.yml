@@ -2,8 +2,8 @@ services:
   pg:
     image: postgres:latest
     environment:
-      POSTGRES_USER: main
-      POSTGRES_PASSWORD: test
-      POSTGRES_DB: ai
+      POSTGRES_USER: bridge_admin
+      POSTGRES_PASSWORD: Rdf5%6&jmVs(02bN!*sld
+      POSTGRES_DB: bridge
     ports:
       - "5050:5432"
